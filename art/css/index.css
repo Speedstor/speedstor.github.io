@@ -1,0 +1,121 @@
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    margin: 0px;
+}
+.switch:hover{
+    cursor: pointer;
+}
+
+.switchDisplay{
+    color: rgba(70, 70, 70, 0.651);
+
+}
+
+
+input:checked + .switchDisplay {
+    background-color: #8a8a8a6e;
+    color: inherit;
+  }
+
+input:checked + .switchOrange {
+    background-color: #e08e6fa6;
+  }
+
+input:checked + .switchYellow {
+    background-color:#deda72a6;
+  }
+
+input:checked + .switchRed {
+    background-color:#db6060a6;
+  }
+
+input:checked + .switchGrey {
+    background-color: #b6b6b6a6;
+  }
+
+input:checked + .switchDarkGrey {
+    background-color:#777777a6;
+  }
+
+input:checked + .switchGreen {
+    background-color: #7cc358a6;
+  }
+
+  input:checked + .switchBlue {
+    background-color:#5da1dba6;
+  }
+  input:checked + .switchBrown {
+      background-color: #aa5d29a6;
+    }
+
+  
+.imageContainer{
+  width: 25%; 
+  box-sizing: border-box; 
+  padding: 24px; 
+  text-decoration: none; 
+  color: inherit;
+  border-radius: 4px;
+  transition: 120ms all linear;
+}
+
+.imageContainer img{
+  
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+
+.imageContainer:hover{
+  padding: 20px;
+  cursor: pointer;
+}
+
+.mainDiv{
+  width: 86%; max-width: 1753px; margin: auto; padding-bottom: 60px;
+  min-height: calc(100vh - 72px);
+}
+
+.mainDiv.focused{
+  width: 100%;
+  max-width: 1753px; 
+}
+
+.indexBody.focused{
+  justify-content: flex-start;
+  width: calc(100% - 813px);
+}
+
+#imgContent img, #imgContent video{
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+#imgDisplay:hover{
+  z-index: 6;
+}
+
+@media screen and (max-width: 1000px){
+  #imgDisplay{
+    width: 100% !important;
+  }
+  .imageContainer{
+    width: 33%
+  }
+}
+@media screen and (max-width: 751px){
+  .mainDiv{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 617px){
+  .imageContainer{
+    width: 50%
+  }
+  .mainDiv-child{
+    padding: 10px 1% 1px 1% !important;
+  }
+}

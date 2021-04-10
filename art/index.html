@@ -1,0 +1,234 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from backup.speedstor.net/art/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 10 Apr 2021 00:19:27 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Speedstor - Artist, Programmer & "Futurist"</title>
+     <!-- TODO!! update description -->
+	<meta name="description" content="Speedstor is a brand by a high schooler, and is established for the aim of helping others. Although as a high schooler myself, speedstor could do the best I can to provide you with the best services. The skills that I provide include coding and art. Specifically, c++, java, javascript, illustration, photoshop, adobe priemer, adobe after effects, and blender. Speedstor is the one-stop place to satisfy all your needs, whatever your project speedstor could do it all. Feel free to contact speedtor through this website. My name is Yan Shing Cheung, but I am called Aldrin Cheung. This could see as a profile for Aldrin. Aldrin is the highschooler.">
+	<link rel="stylesheet" type="text/css" href="../css/header.css">
+	<link rel="stylesheet" type="text/css" href="../css/footer.css">
+     <script type="text/javascript" src="../js/javascript.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/products.html">
+     <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+     <script type="text/javascript" src="../js/javascript.js"></script>
+</head>
+
+
+
+<body style="margin: 0px;  background: url(../src/transparentPattern.png); background-color: rgba(0, 0, 0, 0); background-size: cover; ">
+     <div class="smallLink" style="display: none; position: absolute; top: 0; right: 0; border: 0px grey solid; border-left-width: 0.5px; border-bottom-width: 0.5px; font-size: 9px; padding: 1px 4px;"></div>
+     <nav style="z-index: 10; height: 72px; width: 100%; position: fixed; background: rgba(255, 255, 255, 0.8);   box-shadow: inset 0px 0px 10px rgba(0,0,0,0.14), 0 1px 8px 0px rgba(0,0,0,0.2); padding: 0px;">
+          <div class="maxCenter desktopHeader" style="max-width: 1200px; margin: auto; height: 100%; display: flex;">
+               <a href="https://speedstor.net/" style="text-decoration: none; cursor: context-menu !important; height: 100%; padding: 0px; margin: 0px; display: flex;">
+                    <img src="../src/logo.ico" style="height: 92%;"/>
+                    <h2 style="display: inline-block; font-weight: 500; font-size: 29px; padding: 14px 22px 12px 9px;">Speedstor</h2>
+               </a>
+
+               <a class='hoverShiftDown' href="../index.html">Home</a>
+               <a class='hoverShiftDown' href="../about.html">About</a>
+               
+               <div class="portfolioDropdown"><a class='dropdownHover'>Portfolio<span style="font-size: 13px; padding-left: 5px;">&#9660;</span></a>
+                    <div class="dropdown-context portfolio-context">
+                         <a class="listItem" href="index.html">Art</a>
+                         <a class="listItem" href="../coding/index.html">Coding</a>
+                         <a class="listItem" href="../ambitions/index.html">Ambitions</a>
+                         <a class="listItem" href="../auto/basketball.html">Basketball</a>
+                         <a class="listItem" href="../auto/saxophone.html">Music</a>
+                    </div>
+               </div>
+
+               <a class='hoverShiftDown' href="../contact.html">Contact</a>
+               <div style="flex-grow: 10;"></div>
+               <a class='hoverColorBlack' href="http://blog.speedstor.net/">Blog</a>
+               <div class="seperator" style="height: 100%; width: 8px;"></div>
+               <button class="signIn" href="../login.html"> Log In </button>
+          </div>
+     </nav>
+     <div class="placeHolder" style="width: 100%; height: 72px; display: inline-block;"></div>
+
+
+
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<!-- <script type="text/javascript" src="./js/indexTimeline.js"></script> -->
+<script type="text/javascript" src="js/toggleLightDark.js"></script>
+<script type="text/javascript" src="js/artPortfolio.js"></script>
+
+<div class="indexBody" id="indexBody" style="display: flex; flex-direction: row; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    <div style="position:absolute; margin-left: 10px; top: auto; margin-top: 4px;">
+        <div class="onoffswitch">
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" onchange="toggleLightDark()" onclick="lightDarkOnClick()" tabindex="0" checked>
+            <label class="onoffswitch-label" for="myonoffswitch">
+                <span class="onoffswitch-inner"></span>
+                <span class="onoffswitch-switch"></span>
+            </label>
+        </div>
+    </div>
+
+    
+        <div id="mainDiv" class="mainDiv">
+            <div class="mainDiv-child" style="width: 100%; margin: auto; padding: 10px 10% 1px 10%; box-sizing: border-box; border-bottom: 1px grey solid;">
+                <h4 style="margin: 0px; padding: 40px 20px 13px 30px; font-weight: 300;">speedstor.net / art &nbsp;&nbsp<label style="float: right;"><input id="lessCheck" type="checkbox" onchange="changedTag();" checked/> only show chosen works</label></h4>
+
+                <div class="tagWrap" style="display: flex; padding: 4px 20px 4px 39px; flex-wrap: wrap;">
+                    
+                    <label class="switch" style="border: 1px grey solid; border-radius: 2px; margin-bottom: 5px; padding: 4px 0px; display: inline-table; margin-right: 10px;">
+                        <input id="realismCheck" type="checkbox" onchange="changedTag();" checked/>
+                        <span class="switchDisplay switchOrange" style="padding: 4px 10px 4px 8px;">Realism</span>
+                    </label>
+                    <label class="switch" style="border: 1px grey solid; border-radius: 2px; margin-bottom: 5px; padding: 4px 0px; display: inline-table; margin-right: 10px;">
+                        <input id="colorCheck" type="checkbox" onchange="changedTag();" checked/>
+                        <span class="switchDisplay switchYellow" style="padding: 4px 10px 4px 8px;">In Color</span>
+                    </label>
+                    <label class="switch" style="border: 1px grey solid; border-radius: 2px; margin-bottom: 5px; padding: 4px 0px; display: inline-table; margin-right: 10px;">
+                        <input id="animationCheck" type="checkbox" onchange="changedTag();" checked/>
+                        <span class="switchDisplay switchRed" style="padding: 4px 10px 4px 8px;">Animation</span>
+                    </label>
+                    <label class="switch" style="border: 1px grey solid; border-radius: 2px; margin-bottom: 5px; padding: 4px 0px; display: inline-table; margin-right: 10px;">
+                        <input id="sketchCheck" type="checkbox" onchange="changedTag();" checked/>
+                        <span class="switchDisplay switchGrey" style="padding: 4px 10px 4px 8px;">Quick Sketches</span>
+                    </label>
+                    <label class="switch" style="border: 1px grey solid; border-radius: 2px; margin-bottom: 5px; padding: 4px 0px; display: inline-table; margin-right: 10px;">
+                        <input id="inktoberChecker" type="checkbox" onchange="changedTag();" checked/>
+                        <span class="switchDisplay switchDarkGrey" style="padding: 4px 10px 4px 8px;">Inktober</span>
+                    </label>
+                    <label class="switch" style="border: 1px grey solid; border-radius: 2px; margin-bottom: 5px; padding: 4px 0px; display: inline-table; margin-right: 10px;">
+                        <input id="comicCheck" type="checkbox" onchange="changedTag();" checked/>
+                        <span class="switchDisplay switchGreen" style="padding: 4px 10px 4px 8px;">Comic</span>
+                    </label>
+                    <label class="switch" style="border: 1px grey solid; border-radius: 2px; margin-bottom: 5px; padding: 4px 0px; display: inline-table; margin-right: 10px;">
+                        <input id="vfxCheck" type="checkbox" onchange="changedTag();" checked/>
+                        <span class="switchDisplay switchBlue" style="padding: 4px 10px 4px 8px;">vfx</span>
+                    </label>
+                    <label class="switch" style="border: 1px grey solid; border-radius: 2px; margin-bottom: 5px; padding: 4px 0px; display: inline-table; margin-right: 10px;">
+                        <input id="craftCheck" type="checkbox" onchange="changedTag();" checked/>
+                        <span class="switchDisplay switchBrown" style="padding: 4px 10px 4px 8px;">Craft</span>
+                    </label>
+
+                    <button id="selectAllTags" onclick="selectAllTags();" style="height: 20px; margin-top: 7px;">deselect all</button>
+                </div>
+            </div>
+
+
+            <div style="width: 100%; margin: auto; padding: 10px 4% 1px 4%; box-sizing: border-box; border-bottom: 1px grey solid; flex-direction: row; display: flex; flex-wrap: wrap; justify-content: space-evenly;">
+
+                <a class="imageContainer realism" onclick="focusImg('Kyrie Irving Sketch', 'December, 2020', ['./src/portfolio/kyrie2.png']);"><img src="../src/square/kyrie2.jpg" style="width: 100%"/></a>
+                <a class="imageContainer quickSketch realism less" onclick="focusImg('Elon Musk Sketch', 'August, 2020', ['./src/portfolio/elonMusk.PNG']);"><img src="../src/square/elonMusk.jpg" style="width: 100%"/></a>
+                <a class="imageContainer quickSketch realism less" onclick="focusImg('Kyrie Rough Sketch', 'July, 2020', ['./src/portfolio/kyrie.png']);"><img src="../src/square/kyrieRough.jpg" style="width: 100%"/></a>
+                <a class="imageContainer craft inColor" onclick="focusImg('Basketball Collector w/ Cardboard', 'July, 2020', ['./src/portfolio/basketballCollector1.mp4', './src/portfolio/basketballCollector.jpg']);"><img src="src/portfolio/basketballCollector_square.jpg" style="width: 100%"/></a>
+                <a class="imageContainer animation inColor less" onclick="focusImg('DNA Replication Concept Animation', '17 June, 2020', ['./src/portfolio/dnaReplication.gif']);"><img src="../src/square/dnaReplication.jpg" style="width: 100%"/></a>
+                <a class="imageContainer quickSketch less" onclick="focusImg('Rosalind Franklin Sketch', 'June, 2020', ['./src/portfolio/RosalindFranklin.png']);"><img src="../src/square/RosalindFranklin.jpg" style="width: 100%"/></a>
+                <a class="imageContainer inColor realism" onclick="focusImg('Kevin Durant Sketch', 'Feburary, 2020', ['./src/portfolio/kevinDurant.png']);"><img src="../src/square/kevinDurant.jpg" style="width: 100%"/></a>
+                <a class="imageContainer quickSketch less" onclick="focusImg('Practice Sketch #3', 'Janurary, 2020', ['./src/portfolio/sketchPractice3.png']);"><img src="../src/square/womenSketch.jpg" style="width: 100%"/></a>
+                <a class="imageContainer quickSketch animation less" onclick="focusImg('Learning by Copying from Infinity War', 'Janurary, 2020', ['./src/portfolio/copyingInfinityWar_full.GIF']);"><img src="src/portfolio/copyingInfinityWar_web.gif" style="width: 100%"/></a>
+                <a class="imageContainer quickSketch less" onclick="focusImg('Sketching at the Airport', '28 December, 2019', ['./src/portfolio/airportSketch.jpg', 'src/portfolio/airportSketch2.jpg', 'src/portfolio/airportSketch3.jpg', './src/portfolio/airportSketch4.jpg']);"><img src="../src/square/airportSketch.jpg" style="width: 100%"/></a>
+                <a class="imageContainer quickSketch less" onclick="focusImg('Practice Sketch #2', 'November, 2019', ['./src/portfolio/sketchPractice2.png']);"><img src="../src/square/practiceSketch1.jpg" style="width: 100%"/></a>
+                <a class="imageContainer comic less" onclick="focusImg('Comic of Sterotypes (hw)', 'November, 2019', ['./src/portfolio/comic.png']);"><img src="../src/square/comic.jpg" style="width: 100%"/></a>
+                <a class="imageContainer animation" onclick="focusImg('Stephen Curry Dribbling Animation', 'December, 2019', ['./src/portfolio/curryShooting_full.GIF', './src/portfolio/curryShooting.png']);"><img src="src/portfolio/curryShooting_web.gif" style="width: 100%"/></a>
+                <a class="imageContainer quickSketch realism" onclick="focusImg('Self Portrait', 'September, 2019', ['./src/portfolio/selfPortrait.JPG']);"><img src="../src/square/selfPortrait.jpg" style="width: 100%"/></a>
+                <a class="imageContainer inktober quickSketch realism" onclick="focusImg('Inktober 2019', 'October, 2019', ['./src/portfolio/inktober_day1.png', 'src/portfolio/inktober_day2.jpg', 'src/portfolio/inktober_day3.jpg', 'src/portfolio/inktober_day4.jpg', 'src/portfolio/inktober_day5.jpg', 'src/portfolio/inktober_day6.jpg', 'src/portfolio/inktober_day7.jpg', 'src/portfolio/inktober_day8.png', 'src/portfolio/inktober_day9.png', 'src/portfolio/inktober_day10.png', 'src/portfolio/inktober_day11.png', 'src/portfolio/inktober_day12.png', 'src/portfolio/inktober_day13.png', 'src/portfolio/inktober_day14.png', './src/portfolio/inktober_day15.png']);"><img src="../src/square/inktober2019.jpg" style="width: 100%"/></a>
+                <a class="imageContainer realism less" onclick="focusImg('Sketch of my Parents', '17 July, 2019', ['./src/portfolio/parents.png']);"><img src="../src/square/parents.jpg" style="width: 100%"/></a>
+                <a class="imageContainer inColor less" onclick="focusImg('Lion King - Simba Sketch', 'July, 2019', ['./src/portfolio/simba.png']);"><img src="../src/square/lionKing.jpg" style="width: 100%"/></a>
+                <a class="imageContainer inColor" onclick="focusImg('Spider man Sketch', 'July, 2019', ['./src/portfolio/spiderMan.png']);"><img src="../src/square/spiderMan.jpg" style="width: 100%"/></a>
+                <a class="imageContainer quickSketch less" onclick="focusImg('Practice Sketch #1', 'March, 2019', ['./src/portfolio/sketchPractice1.png']);"><img src="../src/square/randomSketches.jpg" style="width: 100%"/></a>
+                <a class="imageContainer inColor less" onclick="focusImg('Flash Cartoon on Notebook', 'Feburary, 2019', ['./src/portfolio/flashNotebook.jpg']);"><img src="../src/square/blackFlash.jpg" style="width: 100%"/></a>
+                <a class="imageContainer realism quickSketch less" onclick="focusImg('Face Perspective Practice Sketch', '14 Janurary, 2019', ['./src/portfolio/perspectivePracticeSketch.jpg']);"><img src="../src/square/perspectivePracticeSketch.jpg" style="width: 100%"/></a>
+                <a class="imageContainer realism" onclick="focusImg('Bam Bam Sketch', 'December, 2018', ['./src/portfolio/bamBam.jpg']);"><img src="../src/square/bamBam.jpg" style="width: 100%"/></a>
+                <a class="imageContainer less" onclick="focusImg('3D sculpt', 'December, 2018', ['./src/portfolio/3dFace.PNG']);"><img src="../src/square/first3dSculpt.jpg" style="width: 100%"/></a>
+                <a class="imageContainer realism" onclick="focusImg('Sketch of a random old man', 'November, 2018', ['./src/portfolio/oldMan.jpg']);"><img src="../src/square/oldMan.jpg" style="width: 100%"/></a>
+                <a class="imageContainer inColor less" onclick="focusImg('Optimus Prime Cartoon (self-representation)', 'November, 2018', ['./src/portfolio/optimusPrime.png']);"><img src="../src/square/optimusPrime.jpg" style="width: 100%"/></a>
+                <a class="imageContainer inColor realism" onclick="focusImg('Dog(Mia) Sketch', 'November, 2018', ['./src/portfolio/dogSketch.jpg']);"><img src="../src/square/dogSketch.jpg" style="width: 100%"/></a>
+                <a class="imageContainer inktober quickSketch" onclick="focusImg('Inktober 2018', 'October, 2018', ['./src/portfolio/inktober2018_day1.JPG', 'src/portfolio/inktober2018_day2.jpg', 'src/portfolio/inktober2018_day3.jpg', 'src/portfolio/inktober2018_day4.jpg', 'src/portfolio/inktober2018_day5.jpg', 'src/portfolio/inktober2018_day6.jpg', 'src/portfolio/inktober2018_day7.jpg', 'src/portfolio/inktober2018_day8.jpg', 'src/portfolio/inktober2018_day9.jpg', 'src/portfolio/inktober2018_day10.jpg', 'src/portfolio/inktober2018_day11.jpg', './src/portfolio/inktober2018_day12.jpg']);"><img src="../src/square/inktober2018.jpg" style="width: 100%"/></a>
+                <a class="imageContainer inColor realism" onclick="focusImg('Wolf Sketch', 'September, 2018', ['./src/portfolio/wolfSketch.jpg']);"><img src="../src/square/wolfSketch.jpg" style="width: 100%"/></a>
+                <a class="imageContainer quickSketch inColor less" onclick="focusImg('Parot Sketch', 'September, 2018', ['./src/portfolio/parot.png']);"><img src="../src/square/parot.jpg" style="width: 100%"/></a>
+                <a class="imageContainer inColor realism less" onclick="focusImg('Random Bird Sketch #2', '23 September, 2018', ['./src/portfolio/bird2.jpg']);"><img src="../src/square/bird2.jpg" style="width: 100%"/></a>
+                <a class="imageContainer realism less" onclick="focusImg('Random Bird Sketch', '21 September, 2018', ['./src/portfolio/bird1.jpg']);"><img src="../src/square/bird1.jpg" style="width: 100%"/></a>
+                <a class="imageContainer inColor less" onclick="focusImg('Vector Self Portrait', 'Feburary, 2018', ['./src/portfolio/vectorSelfPortrait.JPG']);"><img src="../src/square/firstVector.jpg" style="width: 100%"/></a>
+                <a class="imageContainer inColor less" onclick="focusImg('Technocraft Club Poster', 'Janurary, 2018', ['./src/portfolio/technocraftPoster.JPG']);"><img src="../src/square/clubPoster.jpg" style="width: 100%"/></a>
+                <a class="imageContainer craft less" onclick="focusImg('Cardboard Laptop Craft', 'November, 2017', ['./src/portfolio/cardboardLaptop.png', './src/portfolio/cardboardLaptop.mp4']);"><img src="../src/square/cardboardComputer.jpg" style="width: 100%"/></a>
+                <a class="imageContainer inColor less" onclick="focusImg('Red Dragon Logo for China Thinks Big', 'December, 2017', ['./src/portfolio/chinaThinksBig.png']);"><img src="../src/square/chinaThinksBig.jpg" style="width: 100%"/></a>
+                <a class="imageContainer inColor" onclick="focusImg('Learning PS, making Profile Picture', 'November, 2017', ['./src/portfolio/profilePic2.jpg', './src/portfolio/profilePic.JPG']);"><img src="../src/square/profilePic.jpg" style="width: 100%"/></a>
+                <a class="imageContainer vfx inColor less" onclick="focusImg('Polishing on my vfx skills', 'November, 2017', ['./src/portfolio/flash2.mp4', './src/portfolio/flash2.PNG']);"><img src="../src/square/vfx2.jpg" style="width: 100%"/></a>
+                <a class="imageContainer vfx inColor less" onclick="focusImg('Learning vfx and making myself the flash', 'November, 2017', ['./src/portfolio/flash1.mp4', './src/portfolio/flash1.png']);"><img src="../src/square/vfx1.jpg" style="width: 100%"/></a>
+
+
+            </div>
+
+
+        </div>
+
+    
+    <div id="imgDisplay" style="display: none; width: 813px; height: calc(100vh - 72px); background: black; position: fixed; right: 0px; top: 72px; color: #dadada; box-sizing: border-box; padding: 5px 20px; overflow-y: auto;">
+        <div style="width: 100%; padding: 10px 3px 10px 10px; box-sizing: border-box;">
+            <button style="float: right; padding: 5px 10px; font-weight: 400; font-size: medium;" onclick="defocus()">close</button>
+        </div>   
+        <h1 id="imgDisplayTitle" style="margin: 0px; padding: 39px 20px 4px 14px; font-weight: 400; font-size: xx-large;">
+            This is the Title Image
+        </h1>    
+        <h3 id="imgDisplayDate" style='font-weight: 300; padding: 3px 20px 21px 14px; margin: 0px;'>
+            18 Oct, 2019
+        </h3>
+
+        <div id="imgContent" class="imgContent">
+            <img src="src/portfolio/curryShooting_full.gif"/>
+            <img src="src/portfolio/RosalindFranklin.png"/>
+            <video controls>
+                <source src="src/portfolio/basketballCollector.mp4" type="video/mp4">
+                <source src="movie.html" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+
+</div>
+
+
+<script>
+
+
+changedTag();
+
+</script>
+
+<footer style="position: relative; z-index: 2;">
+
+	<div class="footerImage">
+		<div class="footerContent">
+			<h1> Speedstor </h1>
+			<ul>
+				<li><h2>speedstor.net</h2></li>
+				<li class="list"><a href="../index.html">Home</a></li>
+				<li class="list"><a href="../about.html">About</a></li>
+            	<li class="list"><a href="../portfolio.html">Portfolio</a></li>
+				<li class="list"><a href="../contact.html">Contact</a></li>
+			</ul>
+			<ul>
+				<li><h2>Contact</h2></li>
+				<li class="list">Phone: +1 657-337-9558</li>
+				<li class="list">Email: <a href="mailto:aldrin.cheung@gmail.com">aldrin.cheung@gmail.com</a></li>
+				<li class="list lastList">
+					<a href="https://www.facebook.com/aldrin.cheung"><img alt="facebook" src="../src/logos/facebook.png" class="social facebook"/></a>
+					<a href="https://twitter.com/_Speedstor_"><img alt="twitter" class="social twitter" src="../src/logos/twitter.png"/></a>
+					<a href="https://www.instagram.com/_speedstor_/?hl=en"><img alt="instagram" class="social instagram" src="../src/logos/instagram.png"/></a>
+					<a href="https://www.youtube.com/channel/UCMFFIrK6IRp8sz6JWR5817Q"><img alt="youtube" class="social youtube" src="../src/logos/youtube.png"/></a>
+				</li></a>
+			</ul>
+			<img src="../src/qrcode-speedstor-net.png" class="qrcode" alt="speedstor's Wechat Qrcode">
+		</div>
+
+		<div class="copyright3">
+			<p class="copyright2">Copyright &copy; 2019 Speedstor. All Rights Reserved </p>
+		</div>
+	</div>
+</footer>
+
+
+<!-- Mirrored from backup.speedstor.net/art/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 10 Apr 2021 01:15:15 GMT -->
+</html>
